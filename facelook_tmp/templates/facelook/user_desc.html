@@ -1,0 +1,9 @@
+{% if user_list %}
+    <ul>
+    {% for user  in user_list %}
+        <li><a href="/facelook/user_desc/{{ user.user_name }}/">{{ user.user_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No facelook are available.</p>
+{% endif %}
