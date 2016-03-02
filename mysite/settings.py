@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'facelook',
         'USER':'root',
         'PASSWORD':'tihcm',
-        'HOST':'192.168.182.136',
+        'HOST':'192.168.182.137',
         'PORT':'3306',
     }
 }      
